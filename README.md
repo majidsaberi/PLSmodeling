@@ -17,6 +17,7 @@ PLS regression is particularly well-suited for neuroimaging and clinical data be
 ---
 
 ### Repository Structure
+
 R/
 ├── reformat.R     # Convert connectivity arrays ↔ data frames / matrices
 ├── regress.R      # Residualize predictors (connectivity) and outcome (clinical variable)
