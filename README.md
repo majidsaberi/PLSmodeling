@@ -18,15 +18,11 @@ PLS regression is particularly well-suited for neuroimaging and clinical data be
 
 ### Repository Structure
 
-* `R/`: Contains all the R scripts for the analysis.
-  * `reformat.R`: Converts connectivity data between arrays, data frames, and matrices.
-  * `regress.R`: Residualizes predictors (connectivity) and the outcome (a clinical variable).
-  * `pls_model.R`: Fits the PLS model, extracts coefficients, and calculates resampling p-values.
-  * `main_run.R`: The primary script to run the entire analysis pipeline from start to finish.
-* `Data/`: (Optional) A directory for a demo dataset.
+* `reformat.R`: Converts connectivity data between arrays, data frames, and matrices.
+* `regress.R`: Residualizes predictors (connectivity) and the outcome (a clinical variable).
+* `pls_model.R`: Fits the PLS model, extracts coefficients, and calculates resampling p-values.
+* `main_run.R`: The primary script to run the entire analysis pipeline from start to finish.
 * `README.md`: This documentation file.
-* `LICENSE`: The license under which this project is distributed.
-
 
 ### Citation
 
